@@ -1,0 +1,76 @@
+.barra {
+    border: solid var(--colorGrisOscuro);
+    margin: 50px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    margin-right: 485px;
+    font-size: var(--cuerpoAltoTexto);
+    margin-top: 15px;
+    background-color: var(--colorGrisClaro);
+    border-radius: 5px;
+    color: var(--colorGrisOscuro);
+
+}
+.buscar i{
+    border:solid var(--colorGrisOscuro);
+    border-radius: 5px;
+    margin: 50px;
+    padding-right: 25px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    background-color: var(--colorGrisClaro);
+
+
+}
+.comprarCuotas{
+    text-align: center;
+    font-size: var(--cuerpoAltoTexto);
+}
+.comprarCuotas i {
+    margin-right: 15px;
+  }
+.lista li a{
+    text-decoration: none;
+    color:var(--colornegro);
+    font-size: var(--cuerpoAltoTexto);
+    line-height: 1;
+
+  }
+
+.lista2 li a{
+    margin-top: 60px;
+    text-decoration: none;
+    color:var(--colornegro);
+    font-size: var(--cuerpoAltoTexto);
+    margin-top: 60px;
+    
+}
+.lista2{
+    margin-top: 60px;
+}
+
+.logo-mercado-liebre {
+    width:300px;
+    margin-left: 75px;
+    margin-top: 50px;
+} 
+.img-home-banner{
+    width:970px;
+    height:287px;
+}
+.burger-menu i{
+    background-color: var(--colorCeleste);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    border: solid var(--colorCeleste);
+    color: var(--colorGrisClaro);
+    border-radius: 7px;
+
+}
+
+.fondo{
+    background-color: var(--colorAmarilloFondo);
+}

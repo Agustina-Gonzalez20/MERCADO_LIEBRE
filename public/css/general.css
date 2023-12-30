@@ -1,0 +1,18 @@
+:root{
+    --colorAmarilloFondo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde:  #39b54a;
+    --cuerpoAltoTexto: 12px;
+    --titulosAltoTexto: 24px;
+    --preciosAltoTexto: 18px;
+    --descripcionesDescuentoAltoTexto: 16px;
+    --familyRobot: 'Roboto', sans-serif;
+    --colornegro:black;
+
+}
+*{
+    font-family: var(--familyRobot);
+}

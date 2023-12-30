@@ -1,0 +1,67 @@
+.pago{
+  margin-top: 100px;
+ }
+.pago i{
+  color: var(--colorCeleste);
+  display: flex;
+  justify-content: center;
+}
+.envio i{
+  color: var(--colorCeleste);
+  display: flex;
+  justify-content: center;
+      
+}
+.seguridad i{
+  color: var(--colorCeleste);
+  display: flex;
+  justify-content: center;
+      
+}
+
+.TituloFooter{
+  text-align: center;
+  font-size: var(--descripcionesDescuentoAltoTexto);
+  color: var(--colorGrisOscuro);
+  font-weight: bold;
+  margin-bottom: 0px;
+
+}
+.envio p{
+  text-align: center;
+  margin-top: 0px;  
+  font-size: var(--cuerpoAltoTexto);
+  color: var(--colorGrisOscuro);
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+.seguridad p{
+  text-align: center;
+  margin-top: 0px;  
+  font-size: var(--cuerpoAltoTexto);
+  color: var(--colorGrisOscuro);
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom: 60px;
+
+}
+.pago p{
+  text-align: center;
+  margin-top: 0px;  
+  font-size: var(--cuerpoAltoTexto);
+  color: var(--colorGrisOscuro);
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 250px;
+  
+}
+
+.Copyright{
+  font-size: var(--cuerpoAltoTexto);
+  color: var(--colorGrisOscuro);
+  margin-left: 50px;
+
+}
