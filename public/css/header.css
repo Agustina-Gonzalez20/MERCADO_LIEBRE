@@ -44,7 +44,6 @@
     color:var(--colornegro);
     font-size: var(--cuerpoAltoTexto);
     margin-top: 60px;
-    
 }
 .lista2{
     margin-top: 60px;
@@ -56,18 +55,17 @@
     margin-top: 50px;
 } 
 .img-home-banner{
-    width:970px;
-    height:287px;
+    width:100%
 }
 .burger-menu i{
     background-color: var(--colorCeleste);
     margin-top: 50px;
     margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
+    margin-left: 50%;
     border: solid var(--colorCeleste);
     color: var(--colorGrisClaro);
     border-radius: 7px;
+    width: 45px;
 
 }
 
