@@ -1,74 +1,247 @@
+/* Header mobile */
 .barra {
-    border: solid var(--colorGrisOscuro);
-    margin: 50px;
-    padding-right: 50px;
+    padding-left: 3px;
+    padding-top: 6px;
+    padding-right: 40px;
+    font-weight: 400;
+    display: inline;
+    border: solid var(--colorGrisOscuro) 1.5px;
+    margin-left: 15px;
     margin-bottom: 0px;
-    margin-right: 485px;
     font-size: var(--cuerpoAltoTexto);
-    margin-top: 15px;
     background-color: var(--colorGrisClaro);
-    border-radius: 5px;
+    border-radius: 3px;
     color: var(--colorGrisOscuro);
-
 }
 .buscar i{
-    border:solid var(--colorGrisOscuro);
+    padding-top: 2px;
+    border: 1px solid var(--colorGrisOscuro);
     border-radius: 5px;
-    margin: 50px;
-    padding-right: 25px;
+    padding-right: 2px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-top: 0px;
     background-color: var(--colorGrisClaro);
-
-
 }
 .comprarCuotas{
+    margin: 10px;
     text-align: center;
     font-size: var(--cuerpoAltoTexto);
 }
 .comprarCuotas i {
-    margin-right: 15px;
+    margin-right: 0;
   }
-.lista li a{
-    text-decoration: none;
-    color:var(--colornegro);
-    font-size: var(--cuerpoAltoTexto);
-    line-height: 1;
+.lista{
+ display: none;
 
   }
 
-.lista2 li a{
-    margin-top: 60px;
-    text-decoration: none;
-    color:var(--colornegro);
-    font-size: var(--cuerpoAltoTexto);
-    margin-top: 60px;
-}
 .lista2{
-    margin-top: 60px;
+    display: none;
 }
+
 
 .logo-mercado-liebre {
-    width:300px;
-    margin-left: 75px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    display: block;
+    width: 140px;
+    margin-left: 10%;
 } 
 .img-home-banner{
-    width:100%
+    width:100%;
+    margin-top: 15px;
 }
 .burger-menu i{
-    background-color: var(--colorCeleste);
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-left: 50%;
-    border: solid var(--colorCeleste);
+    padding: 8px;
     color: var(--colorGrisClaro);
-    border-radius: 7px;
-    width: 45px;
-
+    text-align: center;
+    border-radius: 6px;
+    margin: 2%;
+    background-color: var(--colorCeleste);
+    border: solid var(--colorCeleste);
 }
 
+.burger-menu{
+
+text-align: center;
+
+margin-top: 0%;
+}
 .fondo{
     background-color: var(--colorAmarilloFondo);
+}
+.cuerpo{
+    
+margin: 0;
+}
+
+.buscar{display: inline;}
+
+/* Header tablet */
+@media (min-width: 426px) {
+    .barra {
+        padding-left: 3px;
+        padding-top: 6px;
+        padding-right: 40px;
+        font-weight: 400;
+        display: inline;
+        border: 1px solid var(--colorGrisOscuro);
+        margin-left: 15px;
+        margin-bottom: 0px;
+        font-size: var(--cuerpoAltoTexto);
+        background-color: var(--colorGrisClaro);
+        border-radius: 2px;
+        color: var(--colorGrisOscuro);
+    }
+    .buscar i{
+        border: 1px solid var(--colorGrisOscuro);
+        border-radius: 3px;
+        padding-right: 2px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        background-color: var(--colorGrisClaro);
+    }
+    .comprarCuotas{
+        margin: 10px;
+        text-align: center;
+        font-size: var(--cuerpoAltoTexto);
+    }
+    .comprarCuotas i {
+        margin-right: 0;
+      }
+    .lista li a{
+        text-decoration: none;
+        color:var(--colornegro);
+        font-size: var(--cuerpoAltoTexto);
+        line-height: 1;
+        margin:0%;
+        padding-left: 0%;
+      }
+    
+    .lista2 li a{
+        text-decoration: none;
+        color:var(--colornegro);
+        font-size: var(--cuerpoAltoTexto);
+        margin-top: 60px;
+    }
+    .lista{
+        margin-bottom: 0;
+        display: block;
+        padding-left: 15px;
+        padding-bottom: 0;
+    }
+
+    .lista2{
+        padding-left: 15px;
+        display: block;
+        margin-top: 0;
+    }
+    
+    .logo-mercado-liebre {
+        margin-bottom: 20px;
+        padding-top: 30px;
+        display: block;
+        width: 250px;
+        margin-left: 30px;
+    } 
+
+    .img-home-banner{
+        width:100%
+    }
+    .burger-menu i{
+    display: none;
+    }
+    
+    .fondo{
+        background-color: var(--colorAmarilloFondo);
+    }
+    
+    .buscar{display: inline;}
+    
+}
+
+/* Header desktop */
+@media (min-width: 769px) {
+    .barra {
+        padding-left: 3px;
+        padding-top: 3px;
+        padding-right: 40px;
+        font-weight: 400;
+        display: inline;
+        border: solid var(--colorGrisOscuro);
+        margin-left: 15px;
+        margin-bottom: 0px;
+        font-size: var(--cuerpoAltoTexto);
+        background-color: var(--colorGrisClaro);
+        border-radius: 5px;
+        color: var(--colorGrisOscuro);
+    }
+    .buscar i{
+        border:solid var(--colorGrisOscuro);
+        border-radius: 5px;
+        padding-right: 2px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        background-color: var(--colorGrisClaro);
+    }
+    .comprarCuotas{
+        margin: 10px;
+        text-align: center;
+        font-size: var(--cuerpoAltoTexto);
+    }
+    .comprarCuotas i {
+        margin-right: 15px;
+      }
+    .lista li a{
+        text-decoration: none;
+        color:var(--colornegro);
+        font-size: var(--cuerpoAltoTexto);
+        line-height: 1;
+        margin:0%;
+        padding-left: 0%;
+      }
+    
+    .lista2 li a{
+        text-decoration: none;
+        color:var(--colornegro);
+        font-size: var(--cuerpoAltoTexto);
+        margin-top: 60px;
+    }
+    .lista{
+        margin-bottom: 0;
+        display: block;
+        padding-left: 15px;
+        padding-bottom: 0;
+    }
+
+    .lista2{
+        padding-left: 15px;
+        display: block;
+        margin-top: 0;
+    }
+    
+    .logo-mercado-liebre {
+        margin-bottom: 20px;
+        padding-top: 30px;
+        display: block;
+        width: 250px;
+        margin-left: 30px;
+    } 
+
+    .img-home-banner{
+        width:100%
+    }
+    .burger-menu i{
+    display: none;
+    }
+    
+    .fondo{
+        background-color: var(--colorAmarilloFondo);
+    }
+    
+    .buscar{display: inline;}
+    
 }

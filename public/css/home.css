@@ -1,0 +1,103 @@
+/* home mobile */
+.seccion-main{
+    text-align: center;
+    background-color: var(--colorGrisClaro);
+}
+.productos{
+    margin: auto;
+    width: 90vw;
+}
+.ofertas-compra{
+    margin: auto;
+    width: 90vw;
+}
+.tituloHome{margin: 0;padding: 30px;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
+
+.precio{margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
+
+.descuento{
+    margin: 0;
+    font-weight: 400;
+    font-size: var(--descripcionesDescuentoAltoTexto);
+    color: var(--colorVerde);
+}
+
+.descripcion{display: none;}
+
+.articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);}
+
+.epigrafe .camion i{border-radius: 50%;padding: 5%;color: var(--colorVerde);border: solid;}
+.epigrafe{border: var(--colorGrisClaro) 1px solid;text-align: left;margin: 0;padding: 30px;}
+
+.imgproducto{width: 90%;}
+
+/* home tablet */
+@media (min-width: 426px){
+    .seccion-main{
+        text-align: center;
+        background-color: var(--colorGrisClaro);
+    }
+    .productos{
+        margin: auto;
+        width: 90vw;
+    }
+    .ofertas-compra{
+        margin: auto;
+        width: 90vw;
+    }
+    .tituloHome{padding: 30px;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
+    
+    .precio{margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
+    
+    .descuento{
+        margin: 0;
+        font-weight: 400;
+        font-size: var(--descripcionesDescuentoAltoTexto);
+        color: var(--colorVerde);
+    }
+    
+    .descripcion{display: block;color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);margin-top: 35x;}
+    
+    .articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);}
+    
+    .epigrafe .camion i{border-radius: 50%;padding: 2%;color: var(--colorVerde);border: solid;}
+    .epigrafe{padding-bottom: 0;display: block;border: var(--colorGrisClaro) 1px solid;text-align: left;margin: 0;padding-left: 30px;}
+    
+    .imgproducto{width: 90%;}
+    
+}
+/* home desktop */
+@media (min-width: 769px){
+    .seccion-main{
+        text-align: center;
+        background-color: var(--colorGrisClaro);
+    }
+    .productos{
+        margin: auto;
+        width: 90vw;
+    }
+    .ofertas-compra{
+        margin: auto;
+        width: 90vw;
+    }
+    .tituloHome{padding: 30px;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
+    
+    .precio{margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
+    
+    .descuento{
+        margin: 0;
+        font-weight: 400;
+        font-size: var(--descripcionesDescuentoAltoTexto);
+        color: var(--colorVerde);
+    }
+    
+    .descripcion{display: block;color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);margin-top: 40px;}
+    
+    .articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);}
+    
+    .epigrafe .camion i{border-radius: 50%;padding: 2%;color: var(--colorVerde);border: solid;}
+    .epigrafe{display: block;border: var(--colorGrisClaro) 1px solid;text-align: left;margin: 0;padding: 30px;}
+    
+    .imgproducto{width: 90%;}
+    
+}

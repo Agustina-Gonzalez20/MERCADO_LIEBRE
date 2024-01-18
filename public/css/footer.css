@@ -1,67 +1,209 @@
+/* footer mobile */
 .pago{
   margin-top: 100px;
  }
 .pago i{
+  font-size: 40px;
   color: var(--colorCeleste);
   display: flex;
   justify-content: center;
 }
 .envio i{
+  font-size: 40px;
   color: var(--colorCeleste);
   display: flex;
   justify-content: center;
-      
 }
 .seguridad i{
   color: var(--colorCeleste);
   display: flex;
   justify-content: center;
-      
+  font-size: 40px;
 }
 
 .TituloFooter{
+  margin-top: 10px;
   text-align: center;
   font-size: var(--descripcionesDescuentoAltoTexto);
   color: var(--colorGrisOscuro);
   font-weight: bold;
   margin-bottom: 0px;
-
 }
 .envio p{
   text-align: center;
-  margin-top: 0px;  
+  margin-top: 0px;
   font-size: var(--cuerpoAltoTexto);
   color: var(--colorGrisOscuro);
   margin-bottom: 100px;
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 90px;
+  margin-left: 90px;
 }
 
 .seguridad p{
   text-align: center;
-  margin-top: 0px;  
+  margin-top: 0px;
   font-size: var(--cuerpoAltoTexto);
   color: var(--colorGrisOscuro);
   margin-bottom: 100px;
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 90px;
+  margin-left: 90px;
   margin-bottom: 60px;
-
 }
 .pago p{
+  margin-left: 90px;
+  margin-right: 90px;
   text-align: center;
-  margin-top: 0px;  
+  margin-top: 0px;
   font-size: var(--cuerpoAltoTexto);
   color: var(--colorGrisOscuro);
   margin-bottom: 100px;
-  margin-right: 250px;
-  margin-left: 250px;
-  
 }
 
 .Copyright{
   font-size: var(--cuerpoAltoTexto);
   color: var(--colorGrisOscuro);
   margin-left: 50px;
+
+}
+/* footer tablet */
+@media (min-width: 426px) {
+  .pago{
+    margin-top: 100px;
+   }
+  .pago i{
+    font-size: 40px;
+    color: var(--colorCeleste);
+    display: flex;
+    justify-content: center;
+  }
+  .envio i{
+    font-size: 40px;
+    color: var(--colorCeleste);
+    display: flex;
+    justify-content: center;
+  }
+  .seguridad i{
+    color: var(--colorCeleste);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  
+  .TituloFooter{
+    margin-top: 10px;
+    text-align: center;
+    font-size: var(--descripcionesDescuentoAltoTexto);
+    color: var(--colorGrisOscuro);
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .envio p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-bottom: 100px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+  
+  .seguridad p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-bottom: 100px;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+  }
+  .pago p{
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-bottom: 100px;
+  }
+  
+  .Copyright{
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-left: 50px;
+  
+  }
+
+}
+
+
+/* footer desktop */
+@media (min-width: 769px) {
+  .pago{
+    margin-top: 100px;
+   }
+  .pago i{
+    font-size: 40px;
+    color: var(--colorCeleste);
+    display: flex;
+    justify-content: center;
+  }
+  .envio i{
+    font-size: 40px;
+    color: var(--colorCeleste);
+    display: flex;
+    justify-content: center;
+  }
+  .seguridad i{
+    color: var(--colorCeleste);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  
+  .TituloFooter{
+    margin-top: 10px;
+    text-align: center;
+    font-size: var(--descripcionesDescuentoAltoTexto);
+    color: var(--colorGrisOscuro);
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .envio p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-bottom: 100px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+  
+  .seguridad p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-bottom: 100px;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+  }
+  .pago p{
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-bottom: 100px;
+  }
+  
+  .Copyright{
+    font-size: var(--cuerpoAltoTexto);
+    color: var(--colorGrisOscuro);
+    margin-left: 50px;
+  
+  }
 
 }
