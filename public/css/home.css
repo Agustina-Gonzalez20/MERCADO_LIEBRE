@@ -13,91 +13,155 @@
 }
 .tituloHome{margin: 0;padding: 30px;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
 
-.precio{margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
+.precio{align-items: center;justify-content: center;display: flex;width: 30%;margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
 
 .descuento{
+    width: 70%;
     margin: 0;
     font-weight: 400;
+    align-items: center;
     font-size: var(--descripcionesDescuentoAltoTexto);
     color: var(--colorVerde);
+    display: flex;
 }
 
-.descripcion{display: none;}
+.descripcion{justify-content: center;width: 100%;display: flex;color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);}
 
-.articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);}
+.articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);
+}
 
-.epigrafe .camion i{border-radius: 50%;padding: 5%;color: var(--colorVerde);border: solid;}
-.epigrafe{border: var(--colorGrisClaro) 1px solid;text-align: left;margin: 0;padding: 30px;}
+.epigrafe .camion i{
+    top: -15px;
+    right: 20px;
+    width: 30px;
+    color: var(--colorVerde);
+    position: absolute;
+    font-size: 16px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    }
+.epigrafe{
+    position: relative;
+    height: 17vh;
+    border: var(--colorGrisClaro) 1px solid;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    }
 
-.imgproducto{width: 90%;}
+.imgproducto{width: 100%;}
 
 /* home tablet */
 @media (min-width: 426px){
     .seccion-main{
-        text-align: center;
+        justify-content: center;
+        display: flex;
         background-color: var(--colorGrisClaro);
+        flex-wrap: wrap;
     }
     .productos{
-        margin: auto;
+        gap: 20px;
+        justify-content: space-around;
         width: 90vw;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
     .ofertas-compra{
         margin: auto;
         width: 90vw;
     }
-    .tituloHome{padding: 30px;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
+    .tituloHome{display: none;align-items: center;height: 15vh;padding: 0;display: flex;width: 100%;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
     
-    .precio{margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
+    .precio{width: 40%;margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
     
     .descuento{
+        width: 60%;
+        justify-content: center;
         margin: 0;
         font-weight: 400;
         font-size: var(--descripcionesDescuentoAltoTexto);
         color: var(--colorVerde);
     }
     
-    .descripcion{display: block;color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);margin-top: 35x;}
+    .descripcion{color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);}
     
-    .articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);}
+    .articulos{display: flex;margin: 0;width: 45%;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);flex-wrap: wrap;}
     
-    .epigrafe .camion i{border-radius: 50%;padding: 2%;color: var(--colorVerde);border: solid;}
-    .epigrafe{padding-bottom: 0;display: block;border: var(--colorGrisClaro) 1px solid;text-align: left;margin: 0;padding-left: 30px;}
+    .epigrafe .camion i{
+        top: -15px;
+        right: 20px;
+        width: 30px;
+        color: var(--colorVerde);
+        position: absolute;
+        font-size: 16px;
+        padding: 5px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        }
+        
+    .epigrafe{position: relative;width: 100%;display: flex;padding-bottom: 0;border: var(--colorGrisClaro) 1px solid;margin: 0;flex-wrap: wrap;flex-direction: row;}
     
-    .imgproducto{width: 90%;}
+    .imgproducto{width: 100%;}
     
 }
 /* home desktop */
 @media (min-width: 769px){
     .seccion-main{
-        text-align: center;
+        justify-content: center;
+        display: flex;
         background-color: var(--colorGrisClaro);
+        flex-wrap: wrap;
     }
     .productos{
-        margin: auto;
+        justify-content: space-around;
         width: 90vw;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
     .ofertas-compra{
         margin: auto;
         width: 90vw;
     }
-    .tituloHome{padding: 30px;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
+    .tituloHome{display: none;align-items: center;height: 15vh;padding: 0;display: flex;width: 100%;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
     
-    .precio{margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
+    .precio{width: 40%;margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
     
     .descuento{
+        width: 60%;
+        justify-content: center;
         margin: 0;
         font-weight: 400;
         font-size: var(--descripcionesDescuentoAltoTexto);
         color: var(--colorVerde);
     }
     
-    .descripcion{display: block;color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);margin-top: 40px;}
+    .descripcion{color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);}
     
-    .articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);}
+    .articulos{display: flex;margin: 0;width: 20%;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);flex-wrap: wrap;}
     
-    .epigrafe .camion i{border-radius: 50%;padding: 2%;color: var(--colorVerde);border: solid;}
-    .epigrafe{display: block;border: var(--colorGrisClaro) 1px solid;text-align: left;margin: 0;padding: 30px;}
+    .epigrafe .camion i{
+        top: -15px;
+        right: 20px;
+        width: 30px;
+        color: var(--colorVerde);
+        position: absolute;
+        font-size: 16px;
+        padding: 5px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        }
+        
+    .epigrafe{position: relative;width: 100%;display: flex;padding-bottom: 0;border: var(--colorGrisClaro) 1px solid;margin: 0;flex-wrap: wrap;flex-direction: row;}
     
-    .imgproducto{width: 90%;}
+    .imgproducto{width: 100%;}
     
 }
