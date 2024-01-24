@@ -11,7 +11,7 @@
     margin: auto;
     width: 90vw;
 }
-.tituloHome{margin: 0;padding: 30px;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
+.tituloHome{width: 100%;margin: 0;padding: 0;color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);}
 
 .precio{align-items: center;justify-content: center;display: flex;width: 30%;margin-top: 0px;font-size: var(--preciosAltoTexto);font-weight: 400;}
 

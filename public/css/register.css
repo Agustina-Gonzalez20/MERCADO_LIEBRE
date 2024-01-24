@@ -1,0 +1,40 @@
+.seccion-register{
+    background-color: var(--colorGrisClaro);
+}
+.datos .nombreApellido .cuadro{width: 90%;display: flex;}
+.usuario{
+}
+
+.datos .nombreApellido{
+    
+height: 40px;
+    
+justify-content: space-around;
+    
+display: flex;
+    
+width: 100%;
+}
+.formulario{
+
+display: flex;
+
+flex-wrap: wrap;
+
+align-items: center;
+}
+.datos{
+
+gap: 60px;
+
+display: flex;
+
+flex-wrap: wrap;
+}
+.perfil{
+width: 100%;
+}
+
+.perfil .opcion{
+    
+}
