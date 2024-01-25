@@ -1,8 +1,15 @@
 .seccion-register{
+    padding: 50px;
     background-color: var(--colorGrisClaro);
 }
-.datos .nombreApellido .cuadro{border: none;width: 90%;display: flex;}
-.usuario{
+.datos .nombreApellido .cuadro{border-radius: 6px;border: none;width: 100%;display: flex;}
+.contrasenia{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
 }
 
 .datos .nombreApellido{
@@ -16,6 +23,8 @@ display: flex;
 width: 100%;
 }
 .formulario{
+
+gap: 60px;
 
 display: flex;
 
@@ -33,10 +42,34 @@ flex-wrap: wrap;
 }
 .perfil{
 
+display: flex;
+
 width: 100%;
+
+justify-content: space-between;
 }
 
 .perfil .opcion{
     
 }
-.tituloRegis{color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);display: flex;width: 100%;}
+.tituloRegis{color: var(--colornegro);font-size: var(--titulosAltoTexto);display: flex;width: 100%;}
+.intereses{
+    width: 100%;
+}
+
+.usuario-foto{display: flex;flex-wrap: wrap;}
+
+.img-usuario{
+    border-radius: 50%;
+    width: 100%;
+}
+.figura{
+    width: 40%;
+}
+.foto{display: flex;justify-content: center;}
+.avatar{
+    
+display: flex;
+    
+justify-content: center;
+}

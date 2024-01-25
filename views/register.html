@@ -12,25 +12,23 @@
     <body class="cuerpo">
         <header class="fondo">
             <img src ="./logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="logo-mercado-liebre">
-            <h3 class="barra">Buscar productos, marcas</h3>
+            <input class="barra" placeholder="Buscar productos, marcas">
             <h3 class="buscar"><i class="fa-solid fa-magnifying-glass"></i></h3>
             
             <h3 class="comprarCuotas"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h3>
             <section class="encabezado">
-            <ul type="none" class="lista">
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Ayuda</a></li>
-            </ul>
-        </section>
-        <section class="encabezado">
-            <ul type="none" class="lista2">
-            <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
-            <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
-            <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
-            </ul>
-        </section>
+                <ul type="none" class="lista">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul type="none" class="lista2">
+                <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+                <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+                </ul>
+            </section>
             <div class="burger-menu">
                 <i class="fas fa-bars"></i>
             </div>
@@ -89,29 +87,25 @@
           <div class="intereses">
             <input type="checkbox" name="intereses" id="jugueteria" value="jugueteria">
             <label for="jugueteria">Jugueteria</label>
+        </div>
             <div class="intereses">
                 <input type="checkbox" name="intereses" id="vidaSana" value="vidaSana">
                 <label for="vidaSana">Vida Sana</label>
-              </div>
           </div>
  <!-- FOTO DE USUARIO -->
  <div class="usuario-foto">
-    <label class="d-inline-block" for="avatar">
-      <figure>
-        <img src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.webp"
+    <label class="foto" for="avatar">
+      <figure class="figura">
+        <img class="img-usuario" src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.webp"
           alt="avatar default">
       </figure>
     </label>
-    <input class="img" type="file" name="avatar" id="avatar" value="avatar"
+    <input class="avatar" type="file" name="avatar" id="avatar" value="avatar"
       accept=".jpg" multiple>
   </div>
    <!--  PASSWORD -->
-   <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-    <label for="contrasenia">Contraseña</label>
-    <input class="form-control form-control-sm" type="password" name="contrasenia" value="" id="contrasenia">
-  </div>
+    <input class="contrasenia" type="password" name="contrasenia" value="" id="contrasenia" placeholder="Contraseña">
      <!--  BOTONES -->
-
   <div class="botones">
     <button class="enviar" type="submit">Enviar Datos</button>
     <button class="borrar" type="reset">Borrar todo</button>

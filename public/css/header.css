@@ -5,7 +5,7 @@
     width: 40%;
     display: flex;
     font-weight: 400;
-    border: solid var(--colorGrisOscuro) 1.5px;
+    border: none;
     font-size: var(--cuerpoAltoTexto);
     background-color: var(--colorGrisClaro);
     border-radius: 3px 0px 0px 3px;
@@ -15,7 +15,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    border: 1px solid var(--colorGrisOscuro);
+    border: none;
     border-radius: 0 3px 3px 0;
     background-color: var(--colorGrisClaro);
 }
@@ -45,7 +45,6 @@
     display: flex;
 } 
 .img-home-banner{
-    margin-top: 20px;
     width:100%;
 }
 .burger-menu i{
@@ -76,13 +75,12 @@ margin: 0;
 .buscar{width: 5%;display: flex;}
 
 /* Header tablet */
-@media (min-width: 426px) {
+@media (min-device-width: 426px) {
     .barra {
         align-items: center;
         width: 25%;
         height: 20px;
         font-weight: 400;
-        border: 1px solid var(--colorGrisOscuro);
         font-size: var(--cuerpoAltoTexto);
         background-color: var(--colorGrisClaro);
         border-radius: 3px 0px 0px 3px;
@@ -90,7 +88,6 @@ margin: 0;
     }
     .buscar i{
         height: 20px;
-        border: 1px solid var(--colorGrisOscuro);
         border-radius: 0 3px 3px 0;
         background-color: var(--colorGrisClaro);
         width: 20px;
@@ -103,8 +100,7 @@ margin: 0;
     .comprarCuotas i {
         margin-right: 0;
       }
-    .lista li a{
-        display: flex;
+    .encabezado .lista li a{
         text-decoration: none;
         color:var(--colornegro);
         font-size: var(--cuerpoAltoTexto);
@@ -154,11 +150,7 @@ margin: 0;
     
     .buscar{display: flex;}
 
-    .encabezado{display: flex;flex-wrap: wrap;}
-    .lista li{
-        
-display: flex;
-    }
+    .encabezado{height: 50px;display: flex;flex-wrap: wrap;}
     
 }
 
@@ -167,16 +159,14 @@ display: flex;
     .barra {
         justify-content: flex-start;
         font-weight: 400;
-        border: solid var(--colorGrisOscuro);
         font-size: var(--cuerpoAltoTexto);
         background-color: var(--colorGrisClaro);
         border-radius: 0 3px 3px 0;
         color: var(--colorGrisOscuro);
     }
     .buscar i{
-        border:solid var(--colorGrisOscuro);
         border-radius: 0 3px 3px 0;
-                background-color: var(--colorGrisClaro);
+        background-color: var(--colorGrisClaro);
     }
     .comprarCuotas{
         font-size: var(--cuerpoAltoTexto);
@@ -223,8 +213,5 @@ display: flex;
     .buscar{}
     
 }
-.encabezado{display: flex;}
-.lista li{
-    
-display: flex;
-}
+.encabezado{justify-content: center;gap: 20%;width: 100%;align-items: center;}
+.lista li{display: flex;}
