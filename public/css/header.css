@@ -59,6 +59,8 @@
 
 .burger-menu{
 
+height: 70px;
+
 margin-top: 0%;
 }
 .fondo{
@@ -76,6 +78,9 @@ margin: 0;
 
 /* Header tablet */
 @media (min-device-width: 426px) {
+    .burger-menu{
+display: none;
+}
     .barra {
         align-items: center;
         width: 25%;
@@ -155,7 +160,10 @@ margin: 0;
 }
 
 /* Header desktop */
-@media (min-width: 769px) {
+@media (min-device-width: 769px) {
+    .burger-menu{
+        display: none;
+    }
     .barra {
         justify-content: flex-start;
         font-weight: 400;

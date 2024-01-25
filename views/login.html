@@ -12,32 +12,40 @@
     <body class="cuerpo">
         <header class="fondo">
             <img src ="./logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="logo-mercado-liebre">
-            <h3 class="barra">Buscar productos, marcas</h3>
+            <input class="barra" placeholder="Buscar productos, marcas">
             <h3 class="buscar"><i class="fa-solid fa-magnifying-glass"></i></h3>
             
             <h3 class="comprarCuotas"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h3>
             <section class="encabezado">
-            <ul type="none" class="lista">
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Ayuda</a></li>
-            </ul>
-        </section>
-        <section class="encabezado">
-            <ul type="none" class="lista2">
-            <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
-            <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
-            <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
-            </ul>
-        </section>
+                <ul type="none" class="lista">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul type="none" class="lista2">
+                <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+                <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+                </ul>
+            </section>
             <div class="burger-menu">
                 <i class="fas fa-bars"></i>
             </div>
             <img src ="./images/img-home-banner.jpg" alt="img-home-banner" class="img-home-banner">
         </header>
         <main class="seccion-login">
-           
+              <!-- USUARIO -->
+      <div class="nombreUsuario-Login">
+        <input  class="usuario-login" type="text" name="usuario" value="" id="usuario" placeholder="Nombre de Usuario">
+      </div>
+         <!--  PASSWORD -->
+    <input class="contrasenia-login" type="password" name="contrasenia" value="" id="contrasenia" placeholder="Contraseña">
+   
+      <!--  BOTON ENVIAR -->
+
+    <button class="enviar-login" type="submit">Enviar</button>
+
         </main>
         <footer class="pieDePag">
             <section class="pago">

@@ -55,7 +55,7 @@
 .imgproducto{width: 100%;}
 
 /* home tablet */
-@media (min-width: 426px){
+@media (min-device-width: 426px){
     .seccion-main{
         justify-content: center;
         display: flex;
@@ -111,7 +111,7 @@
     
 }
 /* home desktop */
-@media (min-width: 769px){
+@media (min-device-width: 769px){
     .seccion-main{
         justify-content: center;
         display: flex;

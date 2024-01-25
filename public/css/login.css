@@ -1,0 +1,195 @@
+.seccion-login{
+
+gap: 60px;
+
+background-color: var(--colorGrisClaro);
+
+padding: 50px;
+
+display: flex;
+
+flex-wrap: wrap;
+}
+
+.seccion-login .nombreUsuario-Login{
+
+display: flex;
+
+width: 100%;
+
+height: 40px;
+}
+
+.seccion-login .contrasenia-login{
+
+display: flex;
+
+width: 100%;
+
+height: 40px;
+
+border: none;
+
+border-radius: 5px;
+}
+
+.seccion-login .enviar-login{
+
+display: flex;
+
+width: 100%;
+
+height: 40px;
+
+border: none;
+
+border-radius: 5px;
+
+background-color: var(--colorCeleste);
+
+color: white;
+
+align-items: center;
+
+justify-content: center;
+}
+
+.seccion-login .nombreUsuario-Login .usuario-login{
+
+border-radius: 5px;
+
+border: none;
+
+width: 100%;
+}
+/* Login desktop */
+@media (min-device-width: 769px){
+    .seccion-login{
+
+        gap: 60px;
+        
+        background-color: var(--colorGrisClaro);
+        
+        padding: 50px;
+        
+        display: flex;
+        
+        flex-wrap: wrap;
+        }
+        
+        .seccion-login .nombreUsuario-Login{
+        
+        display: flex;
+        
+        width: 100%;
+        
+        height: 40px;
+        }
+        
+        .seccion-login .contrasenia-login{
+        
+        display: flex;
+        
+        width: 100%;
+        
+        height: 40px;
+        
+        border: none;
+        
+        border-radius: 5px;
+        }
+        
+        .seccion-login .enviar-login{
+        
+        display: flex;
+        
+        width: 100%;
+        
+        height: 40px;
+        
+        border: none;
+        
+        border-radius: 5px;
+        
+        background-color: var(--colorCeleste);
+        
+        color: white;
+        
+        align-items: center;
+        
+        justify-content: center;
+        }
+        
+        .seccion-login .nombreUsuario-Login .usuario-login{
+        
+        border-radius: 5px;
+        
+        border: none;
+        
+        width: 100%;
+        }
+
+}
+
+/* Login tablet */
+@media (min-device-width: 426px) {
+    .seccion-login{
+padding: 100px;
+gap: 60px;
+background-color: var(--colorGrisClaro);
+display: flex;
+flex-wrap: wrap;
+}
+        
+        .seccion-login .nombreUsuario-Login{
+        
+        display: flex;
+        
+        width: 100%;
+        
+        height: 40px;
+        }
+        
+        .seccion-login .contrasenia-login{
+        
+        display: flex;
+        
+        width: 100%;
+        
+        height: 40px;
+        
+        border: none;
+        
+        border-radius: 5px;
+        }
+        
+        .seccion-login .enviar-login{
+        
+        display: flex;
+        
+        width: 100%;
+        
+        height: 40px;
+        
+        border: none;
+        
+        border-radius: 5px;
+        
+        background-color: var(--colorCeleste);
+        
+        color: white;
+        
+        align-items: center;
+        
+        justify-content: center;
+        }
+        
+        .seccion-login .nombreUsuario-Login .usuario-login{
+        
+        border-radius: 5px;
+        
+        border: none;
+        
+        width: 100%;
+        }
+}
