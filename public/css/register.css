@@ -1,7 +1,7 @@
 .seccion-register{
     background-color: var(--colorGrisClaro);
 }
-.datos .nombreApellido .cuadro{width: 90%;display: flex;}
+.datos .nombreApellido .cuadro{border: none;width: 90%;display: flex;}
 .usuario{
 }
 
@@ -32,9 +32,11 @@ display: flex;
 flex-wrap: wrap;
 }
 .perfil{
-width: 100%;
+
+width: 100%;
 }
 
 .perfil .opcion{
     
 }
+.tituloRegis{color: var(--colorGrisOscuro);font-size: var(--titulosAltoTexto);display: flex;width: 100%;}
