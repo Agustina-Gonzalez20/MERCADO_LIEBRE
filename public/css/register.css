@@ -49,9 +49,7 @@ width: 100%;
 justify-content: space-between;
 }
 
-.perfil .opcion{
-    
-}
+
 .tituloRegis{color: var(--colornegro);font-size: var(--titulosAltoTexto);display: flex;width: 100%;}
 .intereses{
     width: 100%;
@@ -158,9 +156,7 @@ display: flex;
 width: 60%;
     }
     
-    .perfil .opcion{
-        
-    }
+
     .tituloRegis{color: var(--colornegro);font-size: var(--titulosAltoTexto);display: flex;width: 100%;}
     .intereses{
         width: 100%;
@@ -270,9 +266,6 @@ width: 50%;
 justify-content: space-between;
     }
     
-    .perfil .opcion{
-        
-    }
     .tituloRegis{color: var(--colornegro);font-size: var(--titulosAltoTexto);display: flex;width: 100%;}
     .intereses{
         width: 100%;
