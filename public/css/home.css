@@ -23,9 +23,10 @@
     font-size: var(--descripcionesDescuentoAltoTexto);
     color: var(--colorVerde);
     display: flex;
+    
 }
 
-.descripcion{justify-content: center;width: 100%;display: flex;color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);}
+.descripcion{justify-content: center;width: 100%;display: flex;color: var(--colorGrisOscuro);font-weight: 400;font-size: 0px;}
 
 .articulos{margin-bottom: 10px;background-color: white;border: var(--colorGrisClaro);
 }
@@ -87,9 +88,9 @@
         color: var(--colorVerde);
     }
     
-    .descripcion{color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);}
+    .descripcion{color: var(--colorGrisOscuro);font-weight: 400;}
     
-    .articulos{display: flex;margin: 0;width: 45%;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);flex-wrap: wrap;}
+    .articulos{display: flex;margin: 0;width: 45%;background-color: white;border: var(--colorGrisClaro);flex-wrap: wrap;}
     
     .epigrafe .camion i{
         top: -15px;
@@ -142,9 +143,9 @@
         color: var(--colorVerde);
     }
     
-    .descripcion{color: var(--colorGrisOscuro);font-weight: 400;font-size: var(--descripcionesDescuentoAltoTexto);}
+    .descripcion{color: var(--colorGrisOscuro);font-size: 0px;}
     
-    .articulos{display: flex;margin: 0;width: 20%;background-color: white;border: var(--colorGrisClaro);box-shadow: 1px 1px 8px var(--colorGrisOscuro);flex-wrap: wrap;}
+    .articulos{display: flex;margin: 0;width: 20%;background-color: white;border: var(--colorGrisClaro);flex-wrap: wrap;}
     
     .epigrafe .camion i{
         top: -15px;
@@ -160,8 +161,38 @@
         border-radius: 50%;
         }
         
-    .epigrafe{position: relative;width: 100%;display: flex;padding-bottom: 0;border: var(--colorGrisClaro) 1px solid;margin: 0;flex-wrap: wrap;flex-direction: row;}
+    .epigrafe{position: relative;width: 100%;display: flex;padding-bottom: 0;border: var(--colorGrisClaro) 1px solid;flex-wrap: wrap;flex-direction: row;}
     
     .imgproducto{width: 100%;}
     
 }
+
+/*------------transiciones-animaciones----------*/
+/* descripcion de producto */
+.descripcion:hover{
+    
+    transition: font-size 1s;
+    font-size: var(--descripcionesDescuentoAltoTexto);
+}
+
+/* sombreado en tarjetas */
+.articulos:hover{
+    box-shadow: 1px 1px 8px var(--colorGrisOscuro);
+    transition: box-shadow 1s;
+}
+
+/* rotacion del camion a 90° */
+.camion i:hover{
+    transform: rotate(-90deg);
+    transition: transform 2s;
+
+}
+
+/* color a iconos del footer*/
+.seguridad i:hover{
+    color: var(--colorVerde);
+    transition: color 1s;
+
+}
+
+
